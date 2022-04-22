@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{B603A9E0-04B0-44ED-807B-BAAA2C21CFBC}">
+	<children>
+		<child name="TestProject1" key="{EE60059B-0314-408A-BD11-56EA4F83B6C0}" path="TestProject1\TestProject1.mds" />
+	</children>
+	<testItems key="{6C6E450D-3297-47CA-A4BF-E5B16E60A6EE}">
+		<children>
+			<testItem key="{EE60059B-0314-408A-BD11-56EA4F83B6C0}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{70F4B49A-FF6B-41EB-B33F-759E902415ED}">
+		<data Version="4">
+			<Items>
+				<Variable Name="strCheckpoint" Type="String" Local="False">
+					<DefValue StrValue="Personalize" />
+				</Variable>
+				<Variable Name="strCheckpointNavi" Type="String" Local="False">
+					<DefValue StrValue="Navigator" />
+				</Variable>
+			</Items>
+		</data>
+	</variables>
+	<analysis key="{09928D37-C0E3-4B0C-B1E9-1B25F6F84A35}" />
+	<scc key="{C900492B-D218-429C-9AA0-264B7D78CA88}" name="Git Plugin">
+		<data />
+	</scc>
+</Root>

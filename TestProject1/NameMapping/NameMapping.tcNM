@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{4F98E511-D95A-4877-9636-4FE3AEC2DD37}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{778AED46-2CF2-4C80-A254-C94A2A4F561F}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{2BB27BC7-7C2A-42FB-8D15-B67C1B25C3AA}">
+								<Image FileName="-1277212749" Left="-8" Top="-8" Right="1374" Bottom="736" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageLogin" Key="{9D0DD83C-5F51-44DA-8795-CC0ADF6E0173}">
+								<Image FileName="-1277212749" Left="0" Top="71" Right="1366" Bottom="728" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://swuat.dover-global.net:8030/OA_HTML/AppsLocalLogin.jsp" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formLogin" Key="{8A9C2200-47D0-4BFB-849C-85E7963B6437}">
+										<Image FileName="-1277212749" Left="571" Top="234" Right="795" Bottom="354" />
+										<Selectors>
+											<Selector>
+												<Value Value="#login" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;User Name&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxUserName" Key="{FDBCA27D-A334-4D66-B1EB-74E86C3DE78A}">
+										<Image FileName="-1277212749" Left="571" Top="261" Right="798" Bottom="289" />
+										<TypeInfo Item0="{803184C0-0393-46A1-A3BE-7536F6A3A66C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;User Name&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#usernameField" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;usernameField&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPassword" Key="{522CF423-8A5C-4534-8C60-3B2679E4527C}">
+										<Image FileName="-190884211" Left="571" Top="326" Right="798" Bottom="354" />
+										<TypeInfo Item0="{803184C0-0393-46A1-A3BE-7536F6A3A66C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Password&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#passwordField" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;passwordField&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonLogIn" Key="{AA8BF6FB-597E-48D1-8DFD-30A476574374}">
+										<Image FileName="2000848380" Left="609" Top="379" Right="665" Bottom="409" />
+										<TypeInfo Item0="{C49AF8DD-B648-4009-BA7D-67B0FC1833BD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Log In&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;left&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ButtonBox&apos;]/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageOracleApplicationsSwuatClone" Key="{DB62FADF-2E85-42FD-A69B-1C25CB99E6BE}">
+								<Image FileName="-786994181" Left="8" Top="79" Right="1374" Bottom="736" />
+								<TypeInfo Item0="{7F545EB7-2368-45E3-B503-CD30F3C576DF}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://swuat.dover-global.net:8030/OA_HTML/OA.jsp*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formDefaultformname" Key="{489C3928-85AF-4A69-9D0C-E79DA2F830C0}">
+										<Image FileName="-786994181" Left="8" Top="79" Right="1357" Bottom="965" />
+										<TypeInfo Item0="{24B40E44-6E59-4A69-8887-B87EB6908044}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#DefaultFormName" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@name=&apos;DefaultFormName&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Skip navigation elements to page contents&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@action, &apos;OA.jsp&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonPersbtn" Key="{BB946C63-714D-443D-89D7-819D251AE85E}">
+										<Image FileName="-786994181" Left="72" Top="295" Right="153" Bottom="314" />
+										<TypeInfo Item0="{92539077-C8BC-4745-872C-83920F858924}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#persBtn" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[.=&apos;Personalize&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@title=&apos;Personalize&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/form/span/div[3]/div//button[contains(@class, &apos;x80&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//td[@id=&apos;headerCell&apos;]/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/form/span/div[3]/div//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeNavigator" Key="{65D8C5AC-ADBF-4780-8A81-DFAB86CD3FE3}">
+										<Image FileName="-469936920" Left="60" Top="253" Right="287" Bottom="282" />
+										<TypeInfo Item0="{24B40E44-6E59-4A69-8887-B87EB6908044}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h2[.=&apos;Navigator&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//table/tbody/tr/td/h2[@type=&apos;OraHeader&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//table/tbody/tr/td/h2[contains(@class, &apos;x7p&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;header&apos;]//h2" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//table/tbody/tr/td/h2" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonInspectMdsContents" Key="{582AE17F-F8C7-4E4E-8DD9-D4BEDE42A912}">
+										<Image FileName="-565760091" Left="389" Top="651" Right="530" Bottom="670" />
+										<TypeInfo Item0="{92539077-C8BC-4745-872C-83920F858924}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Inspect MDS Contents&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span/button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span/button[contains(@class, &apos;x80&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[@id=&apos;Notifications&apos;]/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//span/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{778AED46-2CF2-4C80-A254-C94A2A4F561F}">
+			<Child Name="BrowserWindow" Owner="{2BB27BC7-7C2A-42FB-8D15-B67C1B25C3AA}" />
+			<Child Name="pageLogin" Owner="{9D0DD83C-5F51-44DA-8795-CC0ADF6E0173}">
+				<Child Name="formLogin" Owner="{8A9C2200-47D0-4BFB-849C-85E7963B6437}">
+					<Child Name="textboxUserName" Owner="{FDBCA27D-A334-4D66-B1EB-74E86C3DE78A}" />
+					<Child Name="passwordboxPassword" Owner="{522CF423-8A5C-4534-8C60-3B2679E4527C}" />
+				</Child>
+				<Child Name="buttonLogIn" Owner="{AA8BF6FB-597E-48D1-8DFD-30A476574374}" />
+			</Child>
+			<Child Name="pageOracleApplicationsSwuatClone" Owner="{DB62FADF-2E85-42FD-A69B-1C25CB99E6BE}">
+				<Child Name="formDefaultformname" Owner="{489C3928-85AF-4A69-9D0C-E79DA2F830C0}">
+					<Child Name="buttonPersbtn" Owner="{BB946C63-714D-443D-89D7-819D251AE85E}" />
+					<Child Name="textnodeNavigator" Owner="{65D8C5AC-ADBF-4780-8A81-DFAB86CD3FE3}" />
+					<Child Name="buttonInspectMdsContents" Owner="{582AE17F-F8C7-4E4E-8DD9-D4BEDE42A912}" />
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
